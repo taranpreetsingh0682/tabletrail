@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TableTrail | Discover Great Places</title>
+
+    <link href="./src/output.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body class="min-h-screen bg-[#FAF8F3] font-['DM_Sans'] text-[#20231F]">
+
+    <!-- Navbar -->
+    <nav class="flex items-center justify-between px-6 py-5 md:px-12 lg:px-20">
+
+        <a href="#" class="text-2xl font-extrabold tracking-tight text-[#315B45]">
+            TableTrail<span class="text-[#D69A55]">.</span>
+        </a>
+
+        <div class="hidden items-center gap-8 text-sm font-medium md:flex">
+            <a href="#" class="transition hover:text-[#315B45]">Discover</a>
+            <a href="#" class="transition hover:text-[#315B45]">Restaurants</a>
+            <a href="#" class="transition hover:text-[#315B45]">Cafes</a>
+            <a href="#" class="transition hover:text-[#315B45]">About</a>
+        </div>
+
+        <a href="#" class="rounded-full bg-[#315B45] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#244633]">
+            Explore Places
+        </a>
+
+    </nav>
+
+    <!-- Hero Section -->
+    <main class="mx-auto max-w-7xl px-6 py-16 text-center md:px-12 md:py-24">
+
+        <span class="inline-block rounded-full bg-[#E8EEE7] px-5 py-2 text-xs font-bold uppercase tracking-[0.2em] text-[#315B45]">
+            Find your next favourite place
+        </span>
+
+        <h1 class="mx-auto mt-8 max-w-4xl text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
+            Good food. Great places.
+            <span class="text-[#315B45]">Unforgettable moments.</span>
+        </h1>
+
+        <p class="mx-auto mt-6 max-w-2xl text-base leading-8 text-gray-500 md:text-lg">
+            Discover beautiful cafes, amazing restaurants and hidden gems around you.
+            Your next great experience starts here.
+        </p>
+
+        <!-- Search Box -->
+        <div class="mx-auto mt-10 flex max-w-2xl flex-col gap-3 rounded-2xl bg-white p-3 shadow-lg shadow-black/5 sm:flex-row">
+
+            <input
+                type="text"
+                placeholder="Search restaurants, cafes or locations..."
+                class="min-w-0 flex-1 rounded-xl bg-[#F7F7F4] px-5 py-4 text-sm outline-none focus:ring-2 focus:ring-[#315B45]"
+            >
+
+            <button class="rounded-xl bg-[#315B45] px-8 py-4 text-sm font-bold text-white transition hover:bg-[#244633]">
+                Search Places
+            </button>
+
+        </div>
+
+        <!-- Categories -->
+        <section class="mt-20">
+
+            <h2 class="text-2xl font-bold md:text-3xl">
+                Explore by category
+            </h2>
+
+            <p class="mt-3 text-sm text-gray-500">
+                Find the perfect spot for every mood.
+            </p>
+
+            <div class="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4">
+
+                <div class="rounded-2xl bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+                    <div class="text-4xl">☕</div>
+                    <h3 class="mt-4 font-bold">Cafes</h3>
+                    <p class="mt-1 text-xs text-gray-500">Coffee & conversations</p>
+                </div>
+
+                <div class="rounded-2xl bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+                    <div class="text-4xl">🍽️</div>
+                    <h3 class="mt-4 font-bold">Restaurants</h3>
+                    <p class="mt-1 text-xs text-gray-500">Delicious dining</p>
+                </div>
+
+                <div class="rounded-2xl bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+                    <div class="text-4xl">🌇</div>
+                    <h3 class="mt-4 font-bold">Rooftops</h3>
+                    <p class="mt-1 text-xs text-gray-500">Views & good vibes</p>
+                </div>
+
+                <div class="rounded-2xl bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+                    <div class="text-4xl">🥐</div>
+                    <h3 class="mt-4 font-bold">Bakeries</h3>
+                    <p class="mt-1 text-xs text-gray-500">Freshly baked treats</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Testimonial / CTA -->
+        <section class="mt-20 rounded-3xl bg-[#315B45] px-6 py-12 text-white md:px-12 md:py-16">
+
+            <h2 class="text-3xl font-bold md:text-4xl">
+                Every great story starts at a table.
+            </h2>
+
+            <p class="mx-auto mt-4 max-w-xl text-sm leading-7 text-white/75">
+                Explore new places, discover local favourites and make every outing memorable.
+            </p>
+
+            <button class="mt-8 rounded-full bg-white px-8 py-3 font-bold text-[#315B45] transition hover:bg-[#E8EEE7]">
+                Start Exploring
+            </button>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-gray-200 px-6 py-8 text-center">
+        <p class="text-sm text-gray-500">
+            © 2026 TableTrail. Discover places worth visiting.
+        </p>
+    </footer>
+
+</body>
+</html>
